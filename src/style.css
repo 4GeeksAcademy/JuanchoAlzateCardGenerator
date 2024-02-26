@@ -1,4 +1,5 @@
 body {
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: green;
@@ -17,6 +18,8 @@ body {
 }
 
 button {
+  display: flex;
+  margin: 15px;
   width: 200px;
   height: 50px;
   font-size: 1.2em;
@@ -24,6 +27,7 @@ button {
   border-radius: 15px;
   background-color: blue;
 }
+
 .iconUp {
   justify-items: right;
   padding: 10px;
