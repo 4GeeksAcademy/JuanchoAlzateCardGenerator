@@ -1,45 +1,46 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
 body {
-  background: green;
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  padding: 50px;
   justify-content: center;
   align-items: center;
+  background-color: green;
 }
 
 .card {
-  position: relative;
-  text-align: center;
-  padding-top: 200px;
-  background: white;
-  border-radius: 25px;
-  height: 500px;
+  display: flex;
+  margin: 25px;
+  /* text-align: center; */
   width: 300px;
-  font-size: 3rem;
-  border: 1px solid black;
-
-  .topIcon {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-  }
-
-  .buttonIcon {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-  }
-}
-.btnCambio {
-  margin-top: 20px;
-  align-items: center;
-  justify-content: center;
+  height: 500px;
+  background-color: white;
   border-radius: 25px;
-  height: 60px;
-  width: 120px;
-  border: 1px solid black;
-  background: gray;
+  font-size: 5rem;
+  position: relative;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  font-size: 1.2em;
+  color: white;
+  border-radius: 15px;
+  background-color: blue;
+}
+.iconUp {
+  justify-items: right;
+  padding: 10px;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+}
+
+.numberCard {
+  position: absolute;
+  justify-items: center;
+  top: 180px;
+  left: 120px;
+}
+.iconDown {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  transform: rotate(180deg);
 }
